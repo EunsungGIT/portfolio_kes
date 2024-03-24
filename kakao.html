@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EUNSUNG'S PORTFOLIO | KAKAO</title>
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <!-- 폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Nanum+Gothic+Coding&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Nanum+Gothic+Coding&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/kakao.css">
+</head>
+<body>
+    <!-- 스크롤 -->
+    <button type="button" id="scrollBtn">
+        <img src="./images/scroll.png" alt="스크롤">
+    </button>
+    <!-- header -->
+    <header>
+        <h1>
+            <a href="./index.html">
+                <img src="./images/favicon.png" alt="로고">
+            </a>
+        </h1>
+        <nav>
+            <a href="./index.html">HOME</a>
+            <a href="./index.html">ABOUT</a>
+            <a href="./project.html">PROJECT</a>
+            <a href="./contact.html">CONTACT</a>
+        </nav>
+    </header>
+    <!-- main -->
+    <main>
+        <section class="intro">
+            <div class="image">
+                <img src="./images/project/Kakao_mockup.png" alt="목업">
+            </div>
+            <div class="info">
+                <h2><img src="./images/kakao/kakao_logo.png" alt="로고"></h2>
+                <p>카카오 인공지능 기반의 플랫폼과 솔루션을 개발하는 B2B 전문 기업</p>
+                <div class="site">
+                    <h3>SITE</h3>
+                    <p>https://kakaoenterprise.com/</p>
+                </div>
+                <div class="project">
+                    <h3>PROJECT</h3>
+                    <p>개인 프로젝트</p>
+                </div>
+                <div class="page">
+                    <h3>PAGE</h3>
+                    <p>MAIN [반응형]</p>
+                </div>
+                <div class="date">
+                    <h3>DATE</h3>
+                    <p>2023.12.01 - 2023.12.02</p>
+                </div>
+                <div class="tool">
+                    <span>#HTML5</span>
+                    <span>#CSS3</span>
+                    <span>#Javascript</span>
+                </div>
+                <div class="button">
+                    <button type="button" id="planBtn" onclick="openLink('https://www.figma.com/proto/vPkgrlNJg4VYW3o41ug4Vl/%EC%98%A4%EB%8A%98-%EB%82%B4%EA%B0%80-%EC%9E%85%EC%96%B4%EC%95%BC-%ED%95%A0-%EC%98%B7%EC%9D%80%3F?page-id=0%3A1&type=design&node-id=658-524&viewport=843%2C425%2C0.02&t=s70GNKRnEKsyjneZ-1&scaling=contain&mode=design')">기획서</button>
+                    <button type="button" id="resultBtn">RESULT</button>
+                </div>
+            </div>
+        </section>
+        <section class="thumnail">
+            <div class="image_wrap">
+                <h2>IMAGE</h2>
+                <div class="image_all">
+                    <div class="image">
+                        <img src="./images/ono/image_001.png" alt="이미지">
+                    </div>
+                    <div class="image">
+                        <img src="./images/ono/image_002.png" alt="이미지">
+                    </div>
+                    <div class="image">
+                        <img src="./images/ono/image_003.png" alt="이미지">
+                    </div>
+                    <div class="image">
+                        <img src="./images/ono/image_004.png" alt="이미지">
+                    </div>
+                    <div class="image">
+                        <img src="./images/ono/image_005.png" alt="이미지">
+                    </div>
+                    <div class="image">
+                        <img src="./images/ono/image_006.png" alt="이미지">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <p class="copyright">2024 PORTFOLIO&copy;EUNSUNG</p>
+    </footer>
+    <script src="./script/common.js"></script>
+</body>
+</html>

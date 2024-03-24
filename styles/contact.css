@@ -1,0 +1,104 @@
+body {
+    background: rgb(156,158,254);
+    background: linear-gradient(180deg, rgba(156,158,254,1) 0%, rgba(175,180,255,1) 10%, rgba(177,225,255,1) 20%, rgba(255,255,255,1) 50%);
+}
+
+/* header */
+header nav a:nth-of-type(3) {
+    color: #7264ef;
+}
+
+/* main */
+main {
+    height: 100vh; display: flex;
+    align-items: center; flex-flow: column nowrap;
+    max-width: 1200px; margin: 0 auto;
+    justify-content: center;
+}
+main h2 {
+    font-size: 3rem; text-align: center;
+    font-weight: 600; margin-bottom: 50px;
+}
+main .contact_wrap {
+    display: flex;
+    width: 100%;
+}
+main .contact_wrap .text {
+    width: 50%;
+}
+main .contact_wrap .text .image {
+    width: 500px;
+}
+main .contact_wrap .text .image img {
+    width: 100%;
+}
+main .contact_wrap .text > p {
+    color: #8d8d8d; margin-bottom: 20px;
+    line-height: 1.5;
+}
+main .contact_wrap .text .contact {}
+main .contact_wrap .text .contact .number {
+    display: flex; align-items: center;
+    margin-bottom: 10px;
+    font-family: "Blinker", sans-serif;
+}
+main .contact_wrap .text .contact .number img {
+    margin-right: 10px;
+}
+main .contact_wrap .text .contact .email {
+    margin-bottom: 20px;
+    display: flex; align-items: center;
+    font-family: "Blinker", sans-serif;
+}
+main .contact_wrap .text .contact .email img {
+    margin-right: 10px;
+}
+main .contact_wrap .text .contact .button {
+    padding: 10px 0;
+}
+main .contact_wrap .text .contact .button #githubBtn {
+    margin-right: 20px; width: 50px;
+    transition: 0.5s;
+}
+main .contact_wrap .text .contact .button #githubBtn:hover {
+    transform: scale(1.1);
+}
+main .contact_wrap .text .contact .button #githubBtn img {
+    width: 100%;
+}
+main .contact_wrap .text .contact .button #kakaoBtn {
+    width: 50px; transition: 0.5s;
+}
+main .contact_wrap .text .contact .button #kakaoBtn:hover {
+    transform: scale(1.1);
+}
+main .contact_wrap .text .contact .button #kakaoBtn img {
+    width: 100%;
+}
+main .contact_wrap #emailFrm {
+    display: flex; flex-flow: column nowrap;
+    width: 50%; align-items: flex-end;
+}
+main .contact_wrap #emailFrm input {
+    background: #fff; border-radius: 10px;
+    margin-bottom: 20px; padding: 0 20px;
+    height: 50px; width: 100%;
+}
+main .contact_wrap #emailFrm textarea {
+    border: none; border-radius: 10px;
+    margin-bottom: 20px; height: 200px;
+    width: 100%; padding: 20px;
+}
+main .contact_wrap #emailFrm .h-captcha {
+    margin-bottom: 20px;
+}
+main .contact_wrap #emailFrm button {
+    background: #000; height: 50px;
+    display: flex; justify-content: center;
+    align-items: center;
+    border-radius: 50px; color: #fff;
+    width: 150px; transition: 0.5s;
+}
+main .contact_wrap #emailFrm button:hover {
+    background: #7264ef;
+}

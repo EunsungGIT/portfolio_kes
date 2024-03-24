@@ -1,0 +1,325 @@
+/* header */
+header nav a:nth-of-type(1) {
+    color: #7264ef;
+}
+
+/* main */
+main {}
+main .main {
+    height: 100vh; justify-content: center;
+    display: flex; align-items: center;
+    background: rgb(156,158,254);
+    background: linear-gradient(180deg, rgba(156,158,254,1) 0%, rgba(175,180,255,1) 10%, rgba(177,225,255,1) 20%, rgba(255,255,255,1) 50%);
+}
+main .main .intro {}
+main .main .intro h2 {
+    font-size: 5rem; margin-bottom: 40px;
+    font-weight: 600;
+    font-family: "Blinker", sans-serif;
+}
+main .main .intro p {
+    font-size: 1.25rem;
+    color: #16161d;
+}
+main .main .intro p span {
+    color: #7264ef; font-size: 1.25rem;
+}
+main .main .dec {
+    width: 50%; height: 100%;
+    position: relative;
+}
+main .main .dec span {
+    position: absolute;
+    color: #16161d;
+    font-family: "Blinker", sans-serif;
+}
+main .main .dec span:nth-of-type(1) {
+    right: 100px; top: 200px;
+    transform: rotate(30deg);
+}
+main .main .dec span:nth-of-type(2) {
+    right: 200px; top: 300px;
+    transform: rotate(20deg);
+}
+main .main .dec span:nth-of-type(3) {
+    right: 400px; top: 500px;
+    transform: rotate(-10deg);
+}
+main .main .dec span:nth-of-type(4) {
+    right: 150px; bottom: 100px;
+    transform: rotate(-5deg);
+}
+main .main .dec span:nth-of-type(5) {
+    right: 500px; bottom: 250px;
+    transform: rotate(-30deg);
+}
+main .main .dec span:nth-of-type(6) {
+    right: 200px; bottom: 400px;
+    transform: rotate(25deg);
+}
+main .main .dec span:nth-of-type(7) {
+    right: 300px; bottom: 500px;
+    transform: rotate(-5deg);
+}
+main .main .dec span:nth-of-type(8) {
+    right: 300px; top: 150px;
+    transform: rotate(-35deg);
+}
+main .main .dec span:nth-of-type(9) {
+    right: 300px; top: 250px;
+    transform: rotate(35deg);
+}
+main .main .dec span:nth-of-type(10) {
+    right: 50px; top: 350px;
+    transform: rotate(35deg);
+}
+main .main .dec span:nth-of-type(11) {
+    right: 50px; bottom: 150px;
+    transform: rotate(-10deg);
+}
+main .main .dec span:nth-of-type(12) {
+    right: 300px; bottom: 250px;
+    transform: rotate(15deg);
+}
+main .main .dec span:nth-of-type(13) {
+    right: 50px; bottom: 250px;
+    transform: rotate(15deg);
+}
+main .main .dec span:nth-of-type(14) {
+    right: 500px; top: 400px;
+    transform: rotate(-15deg);
+}
+/* about */
+main .about {
+    padding: 100px 0;
+}
+main .about h2 {
+    font-size: 3rem; text-align: center;
+    font-weight: 600; margin-bottom: 50px;
+}
+main .about .about_info {
+    max-width: 1200px; margin: 0 auto;
+    display: flex; justify-content: space-between;
+}
+main .about .about_info .left {
+    width: 400px; border-radius: 20px;
+    margin-left: 60px; overflow: hidden;
+    
+}
+main .about .about_info .left:hover img {
+    transform: scale(1.2);
+}
+main .about .about_info .left img {
+    width: 100%; border-radius: 20px;
+    transition: 0.5s;
+}
+main .about .about_info .right {
+    width: 50%;
+}
+main .about .about_info .right > p {
+    color: #8d8d8d; line-height: 1.5;
+    margin-bottom: 20px;
+}
+main .about .about_info .right .info {}
+main .about .about_info .right .info .account {
+    padding: 20px 0;
+}
+main .about .about_info .right .info .account h3 {
+    font-weight: 700; margin-bottom: 10px
+}
+main .about .about_info .right .info .account p {
+    margin-bottom: 10px; display: flex;
+    align-items: center;
+}
+main .about .about_info .right .info .account p img {
+    margin-right: 10px;
+}
+main .about .about_info .right .info .education {
+    padding: 20px 0;
+}
+main .about .about_info .right .info .education h3 {
+    font-weight: 700; margin-bottom: 10px;
+}
+main .about .about_info .right .info .education p {
+    margin-bottom: 10px; padding-left: 20px;
+    position: relative;
+}
+main .about .about_info .right .info .education p::before {
+    content: ''; background: #7264ef;
+    display: inline-block; width: 10px; height: 10px;
+    border-radius: 50%; position: absolute; left: 0; top: 50%;
+    transform: translateY(-50%);
+}
+/* skill */
+main .skill {
+    padding: 100px 0;
+    background: rgb(149,36,246);
+    background: linear-gradient(120deg, rgba(149,36,246,1) 0%, rgba(65,152,255,1) 75%, rgba(0,232,255,1) 100%);
+}
+main .skill h2 {
+    font-size: 3rem; text-align: center;
+    font-weight: 600; margin-bottom: 50px;
+    color: #fff;
+}
+main .skill .skill_wrap {
+    max-width: 1200px; margin: 0 auto;
+    display: flex; justify-content: space-between;
+}
+main .skill .skill_wrap .develop {
+    width: 50%;
+}
+main .skill .skill_wrap .develop h3 {
+    color: #fff; font-size: 1.5rem;
+    font-weight: 500; margin-bottom: 20px;
+}
+main .skill .skill_wrap .develop .skill_info {
+    display: flex; margin-bottom: 20px;
+    align-items: center;
+}
+main .skill .skill_wrap .develop .skill_info .left {
+    background: #fff; width: 50px;
+    height: 50px; border-radius: 10px;
+    margin-right: 20px; display: flex; align-items: center;
+    justify-content: center;
+}
+main .skill .skill_wrap .develop .skill_info .left img {
+    width: 80%;
+}
+main .skill .skill_wrap .develop .skill_info .right {}
+main .skill .skill_wrap .develop .skill_info .right h4 {
+    color: #f5f5f5; margin-bottom: 10px;
+}
+main .skill .skill_wrap .develop .skill_info .right p {
+    color: #f5f5f5; font-size: 0.875rem;
+}
+main .skill .skill_wrap .design_etc {
+    width: 50%;
+}
+main .skill .skill_wrap .design_etc .design {}
+main .skill .skill_wrap .design_etc .design h3 {
+    color: #fff; font-size: 1.5rem;
+    font-weight: 500; margin-bottom: 20px;
+}
+main .skill .skill_wrap .design_etc .design .skill_info {
+    display: flex; margin-bottom: 20px;
+    align-items: center;
+}
+main .skill .skill_wrap .design_etc .design .skill_info .left {
+    background: #fff; width: 50px;
+    height: 50px; border-radius: 10px;
+    margin-right: 20px; display: flex; align-items: center;
+    justify-content: center;
+}
+main .skill .skill_wrap .design_etc .design .skill_info .left img {
+    width: 80%;
+}
+main .skill .skill_wrap .design_etc .design .skill_info .right {}
+main .skill .skill_wrap .design_etc .design .skill_info .right h4 {
+    color: #f5f5f5; margin-bottom: 10px;
+}
+main .skill .skill_wrap .design_etc .design .skill_info .right p {
+    color: #f5f5f5; font-size: 0.875rem;
+}
+main .skill .skill_wrap .design_etc .etc {}
+main .skill .skill_wrap .design_etc .etc h3 {
+    color: #fff; font-size: 1.5rem;
+    font-weight: 500; margin-bottom: 20px;
+}
+main .skill .skill_wrap .design_etc .etc .skill_info {
+    display: flex; margin-bottom: 20px;
+    align-items: center;
+}
+main .skill .skill_wrap .design_etc .etc .skill_info .left {
+    background: #fff; width: 50px;
+    height: 50px; border-radius: 10px;
+    margin-right: 20px; display: flex; align-items: center;
+    justify-content: center;
+}
+main .skill .skill_wrap .design_etc .etc .skill_info .left img {
+    width: 80%;
+}
+main .skill .skill_wrap .design_etc .etc .skill_info .right {}
+main .skill .skill_wrap .design_etc .etc .skill_info .right h4 {
+    color: #f5f5f5; margin-bottom: 10px;
+}
+main .skill .skill_wrap .design_etc .etc .skill_info .right p {
+    color: #f5f5f5; font-size: 0.875rem;
+}
+/* project */
+main .project {
+    height: 80vh;
+    display: flex; align-items: center;
+    flex-flow: column nowrap; justify-content: center;
+}
+main .project .text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center; align-items: center;
+}
+main .project .text h2 {
+    font-size: 3rem;
+    font-weight: 600; margin-bottom: 20px;
+}
+main .project .text p {
+    text-align: center; margin-bottom: 20px;
+    color: #8d8d8d; line-height: 1.5;
+}
+main .project .recent {
+    display: flex; justify-content: space-between;
+    max-width: 1200px; margin-bottom: 20px;
+}
+main .project .recent a {
+    background: #fff;
+    width: calc(100% / 3 - 20px);
+}
+main .project .recent a:hover .image img {
+    transform: scale(1.2);
+}
+main .project .recent a .image {
+    width: 100%; background: #f2f2f2;
+    border-radius: 20px; overflow: hidden;
+}
+main .project .recent a .image img {
+    width: 100%; transition: 0.5s;
+}
+main .project .recent a .info {
+    padding: 10px;
+}
+main .project .recent a .info h4 {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+main .project .recent a .info p {
+    color: #8d8d8d; font-size: 0.75rem;
+}
+main .project #projectBtn {
+    padding: 10px 20px; border-radius: 10px;
+    border: 1px solid #000;
+    transition: 0.5s;
+    font-family: "Blinker", sans-serif;
+}
+main .project #projectBtn:hover {
+    background: #7264ef; color: #fff;
+    border: 1px solid #7264ef;
+}
+/* contact */
+main .contact {
+    height: 40vh; display: flex; justify-content: center;
+    align-items: center; flex-flow: column nowrap;
+    background-image: url(../images/team.png);
+    background-size: cover; position: relative;
+    background-attachment: fixed;
+}
+main .contact h2 {
+    color: #f5f5f5; font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+main .contact #contactBtn {
+    padding: 10px 20px; border-radius: 10px;
+    border: 1px solid #f5f5f5; color: #fff;
+    transition: 0.5s;
+    font-family: "Blinker", sans-serif;
+}
+main .contact #contactBtn:hover {
+    background: #fff; color: #7264ef;
+}

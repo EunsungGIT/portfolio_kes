@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EUNSUNG'S PORTFOLIO | Wavve</title>
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <!-- 폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Nanum+Gothic+Coding&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Nanum+Gothic+Coding&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/wavve.css">
+</head>
+<body>
+    <!-- 스크롤 -->
+    <button type="button" id="scrollBtn">
+        <img src="./images/scroll.png" alt="스크롤">
+    </button>
+    <!-- header -->
+    <header>
+        <h1>
+            <a href="./index.html">
+                <img src="./images/favicon.png" alt="로고">
+            </a>
+        </h1>
+        <nav>
+            <a href="./index.html">HOME</a>
+            <a href="./index.html">ABOUT</a>
+            <a href="./project.html">PROJECT</a>
+            <a href="./contact.html">CONTACT</a>
+        </nav>
+    </header>
+    <!-- main -->
+    <main>
+        <section class="intro">
+            <div class="image">
+                <img src="./images/wavve/Wavve_mockup.png" alt="목업">
+            </div>
+            <div class="info">
+                <h2><img src="./images/wavve/wavve_logo.svg" alt="로고"></h2>
+                <p
+                >KBS, MBC, SBS로 이루어진 지상파 3사와 SK텔레콤의<br>
+                    합작으로 만들어진 대한민국의 OTT 서비스
+                </p>
+                <div class="site">
+                    <h3>SITE</h3>
+                    <p>https://www.wavve.com/index.html</p>
+                </div>
+                <div class="project">
+                    <h3>PROJECT</h3>
+                    <p>팀 프로젝트</p>
+                </div>
+                <div class="page">
+                    <h3>PAGE</h3>
+                    <p>MAIN / SUB * 40 [모든 반응형 완료]</p>
+                </div>
+                <div class="date">
+                    <h3>DATE</h3>
+                    <p>2024.02.01 - 2024.02.28</p>
+                </div>
+                <div class="tool">
+                    <span>#HTML5</span>
+                    <span>#CSS3</span>
+                    <span>#Javascript</span>
+                    <span>#PHP</span>
+                    <span>#ChatGPT</span>
+                    <span>#API</span>
+                </div>
+                <div class="button">
+                    <button type="button" id="planBtn" onclick="openLink('https://www.figma.com/proto/d97P1f5xxpEmgM6TqXLsxs/2%EC%A1%B0-Wavve-%ED%8C%80-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?page-id=0%3A1&type=design&node-id=373-642&viewport=-4822%2C2692%2C0.12&t=amv1XkZu5Nex2dlY-1&scaling=min-zoom&mode=design')">기획서</button>
+                    <button type="button" id="resultBtn" onclick="openLink('https://yunaweb.pe.kr/wave_frontend24/#')">RESULT</button>
+                </div>
+            </div>
+        </section>
+        <section class="thumnail">
+            <div class="video_wrap">
+                <h2>VIDEO</h2>
+                <div class="video">
+                    <video src="./video/Wavve.mp4" autoplay muted loop></video>
+                </div>
+            </div>
+            <div class="image_wrap">
+                <h2>IMAGE</h2>
+                <div class="image_all">
+                    <div class="image">
+                        <img src="./images/wavve/image_001.png" alt="이미지">
+                    </div>
+                    <div class="image">
+                        <img src="./images/wavve/image_002.png" alt="이미지">
+                    </div>
+                    <div class="image">
+                        <img src="./images/wavve/image_003.png" alt="이미지">
+                    </div>
+                    <div class="image">
+                        <img src="./images/wavve/image_004.png" alt="이미지">
+                    </div>
+                    <div class="image">
+                        <img src="./images/wavve/image_005.png" alt="이미지">
+                    </div>
+                    <div class="image">
+                        <img src="./images/wavve/image_006.png" alt="이미지">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <p class="copyright">2024 PORTFOLIO&copy;EUNSUNG</p>
+    </footer>
+    <script src="./script/common.js"></script>
+</body>
+</html>
