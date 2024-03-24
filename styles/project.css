@@ -7,9 +7,14 @@ header nav a:nth-of-type(2) {
 main {}
 main .main {
     height: 50vh; display: flex;
-    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: center;
     background: rgb(160,132,202);
     background: linear-gradient(180deg, rgba(160,132,202,1) 0%, rgba(191,172,224,1) 10%, rgba(235,199,232,1) 20%, rgba(255,255,255,1) 50%);
+}
+main .text {
+    font-family: "Blinker", sans-serif;
+    font-size: 1.5rem; padding-left: 200px;
 }
 main .main h2 {
     font-size: 5rem; font-weight: 700;

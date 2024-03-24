@@ -1,6 +1,6 @@
 /* intro */
 gsap.fromTo('.intro h2',{
-    x:-100,
+    x:-50,
     opacity:0,
 },{
     scrollTrigger:'.intro',
@@ -9,12 +9,11 @@ gsap.fromTo('.intro h2',{
     opacity:1,
 })
 gsap.fromTo('.intro p',{
-    x:-100,
     opacity:0,
 },{
     scrollTrigger:'.intro',
     duration:1,
-    x:0,
+    delay:0.5,
     opacity:1,
 })
 

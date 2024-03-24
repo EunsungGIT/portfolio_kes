@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EUNSUNG'S PORTFOLIO | KAKAO</title>
     <!-- 파비콘 -->
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-    <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="icon" href="./images/logo.png" type="image/x-icon">
     <!-- SWIPER -->
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -27,15 +27,16 @@
     <button type="button" id="scrollBtn">
         <img src="./images/scroll.png" alt="스크롤">
     </button>
+    <!-- 마우스 -->
+    <div id="circle"></div>
     <!-- header -->
     <header>
         <h1>
             <a href="./index.html">
-                <img src="./images/favicon.png" alt="로고">
+                <img src="./images/logo.png" alt="로고">
             </a>
         </h1>
         <nav>
-            <a href="./index.html">HOME</a>
             <a href="./index.html">ABOUT</a>
             <a href="./project.html">PROJECT</a>
             <a href="./contact.html">CONTACT</a>
@@ -72,8 +73,8 @@
                     <span>#Javascript</span>
                 </div>
                 <div class="button">
-                    <button type="button" id="planBtn" onclick="openLink('https://www.figma.com/proto/vPkgrlNJg4VYW3o41ug4Vl/%EC%98%A4%EB%8A%98-%EB%82%B4%EA%B0%80-%EC%9E%85%EC%96%B4%EC%95%BC-%ED%95%A0-%EC%98%B7%EC%9D%80%3F?page-id=0%3A1&type=design&node-id=658-524&viewport=843%2C425%2C0.02&t=s70GNKRnEKsyjneZ-1&scaling=contain&mode=design')">기획서</button>
-                    <button type="button" id="resultBtn">RESULT</button>
+                    <button type="button" id="planBtn" onclick="openLink('https://kakao-kes.netlify.app')">기획서</button>
+                    <button type="button" id="resultBtn" onclick="openLink('https://kakao-kes.netlify.app')">RESULT</button>
                 </div>
             </div>
         </section>
@@ -105,7 +106,29 @@
     </main>
     <!-- footer -->
     <footer>
-        <p class="copyright">2024 PORTFOLIO&copy;EUNSUNG</p>
+        <div class="left">
+            <h2><img src="./images/logo_footer.png" alt="로고">EUNSUNG</h2>
+            <p class="copyright">2024 PORTFOLIO&copy;EUNSUNG.ALL RIGHTS RESERVED</p>
+        </div>
+        <div class="menu">
+            <h2>SHORTCUTS</h2>
+            <a href="#">ABOUT</a>
+            <a href="#">PROJECT</a>
+            <a href="#">CONTACT</a>
+        </div>
+        <div class="right">
+            <h2>CONTACT</h2>
+            <div class="number_email">
+                <div class="number">
+                    <img src="./images/phone_footer.png" alt="전화번호">
+                    010 - 4098 - 9161
+                </div>
+                <div class="email">
+                    <img src="./images/mail_footer.png" alt="메일">
+                    spacerdt@gmail.com
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="./script/common.js"></script>
 </body>

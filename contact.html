@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EUNSUNG'S PORTFOLIO | CONTACT</title>
     <!-- 파비콘 -->
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-    <link rel="icon" href="./images/favicon.png" type="image/x-icon">
-    <!-- 메일 -->
-    <script src="https://web3forms.com/client/script.js" async defer></script>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="icon" href="./images/logo.png" type="image/x-icon">
     <!-- SWIPER -->
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -17,7 +15,7 @@
     <!-- GSAP -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-    <!-- EMAIL -->
+    <!-- 메일 -->
     <script src="https://web3forms.com/client/script.js" async defer></script>
     <!-- 폰트 -->
     <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Nanum+Gothic+Coding&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -31,11 +29,13 @@
     <button type="button" id="scrollBtn">
         <img src="./images/scroll.png" alt="스크롤">
     </button>
+    <!-- 마우스 -->
+    <div id="circle"></div>
     <!-- header -->
     <header>
         <h1>
             <a href="./index.html">
-                <img src="./images/favicon.png" alt="로고">
+                <img src="./images/logo.png" alt="로고">
             </a>
         </h1>
         <nav>
@@ -85,7 +85,29 @@
     </main>
     <!-- footer -->
     <footer>
-        <p class="copyright">2024 PORTFOLIO&copy;EUNSUNG</p>
+        <div class="left">
+            <h2><img src="./images/logo_footer.png" alt="로고">EUNSUNG</h2>
+            <p class="copyright">2024 PORTFOLIO&copy;EUNSUNG.ALL RIGHTS RESERVED</p>
+        </div>
+        <div class="menu">
+            <h2>SHORTCUTS</h2>
+            <a href="#">ABOUT</a>
+            <a href="#">PROJECT</a>
+            <a href="#">CONTACT</a>
+        </div>
+        <div class="right">
+            <h2>CONTACT</h2>
+            <div class="number_email">
+                <div class="number">
+                    <img src="./images/phone_footer.png" alt="전화번호">
+                    010 - 4098 - 9161
+                </div>
+                <div class="email">
+                    <img src="./images/mail_footer.png" alt="메일">
+                    spacerdt@gmail.com
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="./script/common.js"></script>
     <script src="./script/contact.js"></script>

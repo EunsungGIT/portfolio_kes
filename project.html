@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EUNSUNG'S PORTFOLIO | PROJECT</title>
     <!-- 파비콘 -->
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-    <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="icon" href="./images/logo.png" type="image/x-icon">
     <!-- SWIPER -->
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -27,11 +27,13 @@
     <button type="button" id="scrollBtn">
         <img src="./images/scroll.png" alt="스크롤">
     </button>
+    <!-- 마우스 -->
+    <div id="circle"></div>
     <!-- header -->
     <header>
         <h1>
             <a href="./index.html">
-                <img src="./images/favicon.png" alt="로고">
+                <img src="./images/logo.png" alt="로고">
             </a>
         </h1>
         <nav>
@@ -43,6 +45,7 @@
     <!-- main -->
     <main>
         <section class="main">
+            <div class="text"></div>
             <h2>PROJECT</h2>
         </section>
         <section class="develop">
@@ -75,22 +78,22 @@
                         <p>개인 프로젝트 · 모바일</p>
                     </div>
                 </a>
-                <a href="#">
-                    <div class="image">
-                        <img src="./images/project/Daehan_mockup.png" alt="목업">
-                    </div>
-                    <div class="info">
-                        <h4>대한극장</h4>
-                        <p>팀 프로젝트 · 반응형</p>
-                    </div>
-                </a>
-                <a href="#">
+                <a href="./kakao.html">
                     <div class="image">
                         <img src="./images/project/Kakao_mockup.png" alt="목업">
                     </div>
                     <div class="info">
                         <h4>카카오 엔터프라이즈</h4>
                         <p>개인 프로젝트 · 반응형</p>
+                    </div>
+                </a>
+                <a href="./daehan.html">
+                    <div class="image">
+                        <img src="./images/project/Daehan_mockup.png" alt="목업">
+                    </div>
+                    <div class="info">
+                        <h4>대한극장</h4>
+                        <p>팀 프로젝트 · 반응형</p>
                     </div>
                 </a>
             </div>
@@ -165,7 +168,29 @@
     </main>
     <!-- footer -->
     <footer>
-        <p class="copyright">2024 PORTFOLIO&copy;EUNSUNG</p>
+        <div class="left">
+            <h2><img src="./images/logo_footer.png" alt="로고">EUNSUNG</h2>
+            <p class="copyright">2024 PORTFOLIO&copy;EUNSUNG.ALL RIGHTS RESERVED</p>
+        </div>
+        <div class="menu">
+            <h2>SHORTCUTS</h2>
+            <a href="#">ABOUT</a>
+            <a href="#">PROJECT</a>
+            <a href="#">CONTACT</a>
+        </div>
+        <div class="right">
+            <h2>CONTACT</h2>
+            <div class="number_email">
+                <div class="number">
+                    <img src="./images/phone_footer.png" alt="전화번호">
+                    010 - 4098 - 9161
+                </div>
+                <div class="email">
+                    <img src="./images/mail_footer.png" alt="메일">
+                    spacerdt@gmail.com
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="./script/common.js"></script>
     <script src="./script/project.js"></script>

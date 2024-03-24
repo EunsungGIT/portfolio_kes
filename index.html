@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EUNSUNG'S PORTFOLIO</title>
     <!-- 파비콘 -->
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-    <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="icon" href="./images/logo.png" type="image/x-icon">
     <!-- SWIPER -->
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -35,7 +35,7 @@
     <header>
         <h1>
             <a href="./index.html">
-                <img src="./images/favicon.png" alt="로고">
+                <img src="./images/logo.png" alt="로고">
             </a>
         </h1>
         <nav>
@@ -54,21 +54,60 @@
                 </h2>
                 <p>새로운 기술에 발빠르게 맞춰나가는 <span>얼리어답터 개발자 김은성</span>입니다.</p>
             </div>
-            <div class="dec">
-                <span>&lt;Web Developer&gt;</span>
-                <span>&lt;Frontend&gt;</span>
-                <span>&lt;Javascript&gt;</span>
-                <span>&lt;React&gt;</span>
-                <span>&lt;Web Publisher&gt;</span>
-                <span>&lt;Developer&gt;</span>
-                <span>&lt;Technology&gt;</span>
-                <span>&lt;HTML&gt;</span>
-                <span>&lt;Database&gt;</span>
-                <span>&lt;CSS&gt;</span>
-                <span>&lt;Jquery&gt;</span>
-                <span>&lt;API&gt;</span>
-                <span>&lt;Communication&gt;</span>
-                <span>&lt;Early adopter&gt;</span>
+            <div class="wrapper">
+                <div class="border-circle" id="one"></div>
+                <div class="border-circle" id="two"></div>
+                <div class="background-circle">
+                    <div class="triangle-light"></div>
+                    <div class="body"></div>
+                    <span class="shirt-text">I</span>
+                    <span class="shirt-text">♥</span>
+                    <span class="shirt-text">W</span>
+                    <span class="shirt-text">E</span>
+                    <span class="shirt-text">B</span>
+                    <div class="triangle-dark"></div>
+                </div>
+                <div class="head">
+                    <div class="ear" id="left"></div>
+                    <div class="ear" id="right"></div>
+                    <div class="hair-main">
+                    <div class="sideburn" id="left"></div>
+                    <div class="sideburn" id="right"></div>
+                    <div class="hair-top"></div>
+                    </div>
+                    <div class="face">
+                    <div class="hair-bottom"></div>
+                    <div class="nose"></div>
+                    <div class="eye-shadow" id="left">
+                        <div class="eyebrow"></div>
+                        <div class="eye"></div>
+                    </div>
+                    <div class="eye-shadow" id="right">
+                        <div class="eyebrow"></div>
+                        <div class="eye"></div>
+                    </div>
+                    <div class="mouth"></div>
+                    <div class="shadow-wrapper">
+                        <div class="shadow"></div>
+                    </div>
+                    </div>
+                </div>
+                <span class="music-note" id="one">&#9835;</span>
+                <span class="music-note" id="two">&#9834;</span>
+            </div>
+            <div>
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                </g>
+                </svg>
             </div>
         </section>
         <section class="about">
@@ -310,7 +349,29 @@
     </main>
     <!-- footer -->
     <footer>
-        <p class="copyright">2024 PORTFOLIO&copy;EUNSUNG.All Rights Reserved</p>
+        <div class="left">
+            <h2><img src="./images/logo_footer.png" alt="로고">EUNSUNG</h2>
+            <p class="copyright">2024 PORTFOLIO&copy;EUNSUNG.ALL RIGHTS RESERVED</p>
+        </div>
+        <div class="menu">
+            <h2>SHORTCUTS</h2>
+            <a href="./index.html">ABOUT</a>
+            <a href="./project.html">PROJECT</a>
+            <a href="./contact.html">CONTACT</a>
+        </div>
+        <div class="right">
+            <h2>CONTACT</h2>
+            <div class="number_email">
+                <div class="number">
+                    <img src="./images/phone_footer.png" alt="전화번호">
+                    010 - 4098 - 9161
+                </div>
+                <div class="email">
+                    <img src="./images/mail_footer.png" alt="메일">
+                    spacerdt@gmail.com
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="./script/common.js"></script>
     <script src="./script/index.js"></script>
