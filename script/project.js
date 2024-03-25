@@ -1,6 +1,6 @@
 /* main */
 gsap.fromTo('.main h2',{
-    x:-100,
+    x:-50,
     opacity:0,
 },{
     scrollTrigger:'.main',
@@ -14,7 +14,7 @@ const develop_project_a = document.querySelectorAll('.develop .project a')
 
 develop_project_a.forEach((t,i)=>{
     gsap.fromTo(t,{
-        y:100,
+        y:50,
         opacity:0,
     },{
         scrollTrigger:'.develop',
@@ -27,7 +27,7 @@ develop_project_a.forEach((t,i)=>{
 
 /* design */
 gsap.fromTo('.design .sns_container',{
-    y:100,
+    y:50,
     opacity:0,
 },{
     scrollTrigger:'.design',
@@ -36,7 +36,7 @@ gsap.fromTo('.design .sns_container',{
     opacity:1,
 })
 gsap.fromTo('.design .bnr_container',{
-    y:100,
+    y:50,
     opacity:0,
 },{
     scrollTrigger:'.design',

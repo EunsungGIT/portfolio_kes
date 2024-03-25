@@ -19,7 +19,7 @@ gsap.fromTo('.intro p',{
 
 /* about */
 gsap.fromTo('.about h2',{
-    y:100,
+    y:50,
     opacity:0,
 },{
     scrollTrigger:'.about',
@@ -37,7 +37,7 @@ gsap.fromTo('.about .left',{
     opacity:1,
 })
 gsap.fromTo('.about .right > p',{
-    y:100,
+    y:50,
     opacity:0,
 },{
     scrollTrigger:'.about',
@@ -47,7 +47,7 @@ gsap.fromTo('.about .right > p',{
     opacity:1,
 })
 gsap.fromTo('.about .right .info',{
-    y:100,
+    y:50,
     opacity:0,
 },{
     scrollTrigger:'.about',
@@ -57,7 +57,7 @@ gsap.fromTo('.about .right .info',{
     opacity:1,
 })
 gsap.fromTo('.about .right .education',{
-    y:100,
+    y:50,
     opacity:0,
 },{
     scrollTrigger:'.about',
@@ -73,7 +73,7 @@ const design_skill_info = document.querySelectorAll('.design .skill_info')
 const etc_skill_info = document.querySelectorAll('.etc .skill_info')
 
 gsap.fromTo('.skill h2',{
-    y:100,
+    y:50,
     opacity:0,
 },{
     scrollTrigger:'.skill',
@@ -82,7 +82,7 @@ gsap.fromTo('.skill h2',{
     opacity:1,
 })
 gsap.fromTo('.develop h3',{
-    y:100,
+    y:50,
     opacity:0,
 },{
     scrollTrigger:'.skill',
@@ -92,7 +92,7 @@ gsap.fromTo('.develop h3',{
 })
 develop_skill_info.forEach((t,i)=>{
     gsap.fromTo(t,{
-        y:100,
+        y:50,
         opacity:0,
     },{
         scrollTrigger:'.about',
@@ -103,7 +103,7 @@ develop_skill_info.forEach((t,i)=>{
     })
 })
 gsap.fromTo('.design h3',{
-    y:100,
+    y:50,
     opacity:0,
 },{
     scrollTrigger:'.skill',
@@ -113,7 +113,7 @@ gsap.fromTo('.design h3',{
 })
 design_skill_info.forEach((t,i)=>{
     gsap.fromTo(t,{
-        y:100,
+        y:50,
         opacity:0,
     },{
         scrollTrigger:'.about',
@@ -124,7 +124,7 @@ design_skill_info.forEach((t,i)=>{
     })
 })
 gsap.fromTo('.etc h3',{
-    y:100,
+    y:50,
     opacity:0,
 },{
     scrollTrigger:'.skill',
@@ -134,7 +134,7 @@ gsap.fromTo('.etc h3',{
 })
 etc_skill_info.forEach((t,i)=>{
     gsap.fromTo(t,{
-        y:100,
+        y:50,
         opacity:0,
     },{
         scrollTrigger:'.about',
@@ -149,7 +149,7 @@ etc_skill_info.forEach((t,i)=>{
 const recent_a = document.querySelectorAll('.recent a')
 
 gsap.fromTo('.project .text h2',{
-    y:100,
+    y:50,
     opacity:0,
 },{
     scrollTrigger:'.project',
@@ -158,7 +158,7 @@ gsap.fromTo('.project .text h2',{
     opacity:1,
 })
 gsap.fromTo('.project .text p',{
-    y:100,
+    y:50,
     opacity:0,
 },{
     scrollTrigger:'.project',
@@ -179,7 +179,7 @@ for(let i of recent_a){
     })
 }
 gsap.fromTo('#projectBtn',{
-    y:100,
+    y:50,
     opacity:0,
 },{
     scrollTrigger:'.project',
@@ -191,7 +191,7 @@ gsap.fromTo('#projectBtn',{
 
 /* contact */
 gsap.fromTo('.contact h2',{
-    y:100,
+    y:50,
     opacity:0,
 },{
     scrollTrigger:'.contact',
@@ -201,7 +201,7 @@ gsap.fromTo('.contact h2',{
     opacity:1,
 })
 gsap.fromTo('.contact #contactBtn',{
-    y:100,
+    y:50,
     opacity:0,
 },{
     scrollTrigger:'.contact',

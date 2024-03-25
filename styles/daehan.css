@@ -2,7 +2,7 @@
 header nav a {
     color: #fff;
 }
-header nav a:nth-of-type(3) {
+header nav a:nth-of-type(2) {
     color: #7264ef;
 }
 
@@ -10,7 +10,7 @@ header nav a:nth-of-type(3) {
 main {}
 main .intro {
     display: flex; height: 100vh;
-    background-image: url(../images/wavve/wavve.avif);
+    background-image: url(../images/daehan/daehan.avif);
     background-position: center; padding: 0 100px;
     justify-content: space-between; align-items: center;
 }
@@ -83,6 +83,16 @@ main .intro .info .tool span {
 }
 main .intro .info .button {
     display: flex; padding: 20px 0;
+}
+main .intro .info .button #githubBtn {
+    background: #000; height: 50px;
+    display: flex; justify-content: center;
+    align-items: center; margin-right: 20px;
+    border-radius: 50px; color: #fff;
+    width: 150px; transition: 0.5s;
+}
+main .intro .info .button #githubBtn:hover {
+    background: #7264ef;
 }
 main .intro .info .button #planBtn {
     background: #000; height: 50px;
