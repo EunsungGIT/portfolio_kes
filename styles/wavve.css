@@ -55,6 +55,7 @@ main .intro .info .role h3 {
 }
 main .intro .info .role p {
     color: #fcfcfc; font-size: 0.875rem;
+    line-height: 1.5;
 }
 main .intro .info .project {
     padding: 20px 0;
